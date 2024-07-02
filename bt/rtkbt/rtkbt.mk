@@ -25,7 +25,14 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/frameworks/native/data/etc/android.hardware.
 endif
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.1-service \
+    android.hardware.bluetooth@1.0-service \
+    android.hardware.bluetooth@1.0-service.rc \
+    android.hardware.bluetooth@1.0-impl \
+    bluetooth.default \
+    audio.a2dp.defualt \
+    android.hidl.memory@1.0-impl \
+    Bluetooth \
+    rtkcmd \
     libbt-vendor \
 
 

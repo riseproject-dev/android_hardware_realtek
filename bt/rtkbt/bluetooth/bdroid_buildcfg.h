@@ -22,7 +22,10 @@
 // SERVICE_CLASS:0x1A (Bit17 -Networking,Bit19 - Capturing,Bit20 -Object Transfer)
 // MAJOR CLASS: COMPUTER
 // MINOR CLASS: TABLET
-#define BTA_DM_COD {0x3A, 0x04, 0x38}
+//#define BTA_DM_COD {0x3A, 0x04, 0x38}
+//generate from https://www.ampedrftech.com/cod.htm
+#define BTA_DM_COD {0x2E, 0x01, 0x10}
+
 
 #define BTA_GATT_DEBUG FALSE
 
